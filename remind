@@ -1,0 +1,3 @@
+将application.properties文件的数据库配置更改为自己的即可
+注意mapper文件的扫描路径
+springboot启动报错不能找到dao的bean有两种解决方式 (1)在启动类加上注解@MapperScan("dao的包路径") (2)在dao上添加@Mapper注解
